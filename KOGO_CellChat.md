@@ -136,3 +136,7 @@ netVisual_circle(cellchat_covid@net$weight, vertex.weight = groupSize_covid, wei
 ```
 
 ![](KOGO_CellChat_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+
+### **Reference**
+Jin, S., Guerrero-Juarez, C. F., Zhang, L., Chang, I., Ramos, R., Kuan, C. H., ... & Nie, Q. (2021). Inference and analysis of cell-cell communication using CellChat. Nature communications, 12(1), 1-20.
+Zhang, Z., Cui, F., Cao, C., Wang, Q., & Zou, Q. (2022). Single-cell RNA analysis reveals the potential risk of organ-specific cell types vulnerable to SARS-CoV-2 infections. Computers in biology and medicine, 140, 105092.
