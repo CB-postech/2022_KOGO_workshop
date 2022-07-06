@@ -155,3 +155,8 @@ DropletUtils_rawsce_1
     ## reducedDimNames(0):
     ## mainExpName: NULL
     ## altExpNames(0):
+
+### **Reference**
+Lun, A. T., Riesenfeld, S., Andrews, T., Gomes, T., & Marioni, J. C. (2019). EmptyDrops: distinguishing cells from empty droplets in droplet-based single-cell RNA sequencing data. Genome biology, 20(1), 1-9.
+
+Pekayvaz, K., Leunig, A., Kaiser, R., Joppich, M., Brambs, S., Janjic, A., ... & Nicolai, L. (2022). Protective immune trajectories in early viral containment of non-pneumonic SARS-CoV-2 infection. Nature communications, 13(1), 1-21.
