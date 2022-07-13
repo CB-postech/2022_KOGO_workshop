@@ -190,7 +190,7 @@ scaledExprs <- t(scale(t(avgExprs$RNA)))
 scaledExprs[scaledExprs > -min(scaledExprs)] <- -min(scaledExprs)
 
 palette_length = 100
-my_color = my_color <- colorRampPalette(rev(brewer.pal(11, "RdBu")))(palette_length)
+my_color <- colorRampPalette(rev(brewer.pal(11, "RdBu")))(palette_length)
 
 my_breaks <- c(seq(min(scaledExprs), 0,
                    length.out=ceiling(palette_length/2) + 1),
