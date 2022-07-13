@@ -22,7 +22,7 @@ library(ComplexHeatmap)
 ### **Load the data**
 
 ``` r
-lung_seurat <- readRDS(paste0(rdatadir, 'lung_seurat.rds'))
+lung_seurat <- readRDS('./kogo2022/CellChat/lung_seurat.rds')
 lung_seurat
 ```
 
