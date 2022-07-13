@@ -7,7 +7,6 @@ CellChat
 ``` r
 library(devtools)
 library(Seurat)
-library(scRNAseq)
 library(scater)
 library(harmony)
 library(DropletUtils)
