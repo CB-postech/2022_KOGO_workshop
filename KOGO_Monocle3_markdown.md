@@ -141,9 +141,7 @@ plot_cells(cds,
            label_branch_points=FALSE)
 ```
 
-<figure>
-<img src="D:/KOGO/trajectory_pseudotime.png" style="width:70.0%" alt="trajectory" /><figcaption aria-hidden="true">trajectory</figcaption>
-</figure>
+![](KOGO_Monocle3_markdown_files/figure-gfm/trajectory_pseudotime.png)<!-- -->
 
 Check the gene expression of CD4 and CD8.
 
