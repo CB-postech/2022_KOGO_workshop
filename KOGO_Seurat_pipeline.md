@@ -220,6 +220,8 @@ seurat$celltype[seurat$celltype %in% c('13')] <- 'Plasma.cell'
 seurat$celltype[seurat$celltype %in% c('3','4','9','11')] <- 'Monocyte'
 seurat$celltype[seurat$celltype %in% c('10')] <- 'Classical.Dendritic'
 seurat$celltype[seurat$celltype %in% c('12')] <- 'Plasmacytoid.Dendritic'
+
+FeaturePlot(seurat, group.by = "celltype")
 ```
 
 ![](KOGO_Seurat_pipeline_files/figure-gfm/unnamed-chunk-21-1.png)<!-- -->
