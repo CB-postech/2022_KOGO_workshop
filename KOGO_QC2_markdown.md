@@ -21,16 +21,16 @@ Loading files can be skipped if you already have SCEs in your
 environment.
 
 ``` r
-load(file = './PBMC_COVID_data/DropletUtils_rawsce_1.RData')
-load(file = './PBMC_COVID_data/DropletUtils_rawsce_2.RData')
-load(file = './PBMC_COVID_data/DropletUtils_rawsce_3.RData')
-load(file = './PBMC_COVID_data/DropletUtils_rawsce_4.RData')
-load(file = './PBMC_COVID_data/DropletUtils_rawsce_5.RData')
-load(file = './PBMC_COVID_data/DropletUtils_rawsce_6.RData')
-load(file = './PBMC_COVID_data/DropletUtils_rawsce_7.RData')
-load(file = './PBMC_COVID_data/DropletUtils_rawsce_8.RData')
-load(file = './PBMC_COVID_data/DropletUtils_rawsce_9.RData')
-load(file = './PBMC_COVID_data/DropletUtils_rawsce_12.RData')
+load(file = './kogo2022/QC/DropletUtils_rawsce_1.RData')
+load(file = './kogo2022/QC/DropletUtils_rawsce_2.RData')
+load(file = './kogo2022/QC/DropletUtils_rawsce_3.RData')
+load(file = './kogo2022/QC/DropletUtils_rawsce_4.RData')
+load(file = './kogo2022/QC/DropletUtils_rawsce_5.RData')
+load(file = './kogo2022/QC/DropletUtils_rawsce_6.RData')
+load(file = './kogo2022/QC/DropletUtils_rawsce_7.RData')
+load(file = './kogo2022/QC/DropletUtils_rawsce_8.RData')
+load(file = './kogo2022/QC/DropletUtils_rawsce_9.RData')
+load(file = './kogo2022/QC/DropletUtils_rawsce_12.RData')
 ```
 
 ## Process one sample for example
