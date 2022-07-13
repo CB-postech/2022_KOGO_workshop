@@ -5,11 +5,8 @@ KOGO_QC1(DropletUtils)
 ### **Library**
 
 ``` r
-library(devtools)
 library(Seurat)
-library(scRNAseq)
 library(scater)
-library(harmony)
 library(DropletUtils)
 library(scran)
 ```
