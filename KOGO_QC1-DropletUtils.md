@@ -64,7 +64,7 @@ for (i in 1:length(rawsce_list)) {
   
   br.out <- barcodeRanks(counts(rawsce))
   
-  setwd(paste0(plotdir, 'DropletUtils'))
+  setwd(plotdir)
   png(paste0('DropletUtils_', rawsce_list[i], '.png'))
   
   plot(br.out$rank, br.out$total, log = "xy", xlab = "Rank", ylab = "Total", main = rawsce_list[i])
