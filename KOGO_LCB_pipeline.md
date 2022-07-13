@@ -213,7 +213,7 @@ scaledExprs <- t(scale(t(avgExprs$originalexp)))
 scaledExprs[scaledExprs > -min(scaledExprs)] <- -min(scaledExprs)
 
 palette_length = 100
-my_color = my_color <- colorRampPalette(rev(brewer.pal(11, "RdBu")))(palette_length)
+my_color <- colorRampPalette(rev(brewer.pal(11, "RdBu")))(palette_length)
 
 my_breaks <- c(seq(min(scaledExprs), 0,
                    length.out=ceiling(palette_length/2) + 1),
@@ -243,6 +243,8 @@ seurat$celltype[seurat$celltype %in% c('8')] <- 'Plasma.cell'
 seurat$celltype[seurat$celltype %in% c('2','5')] <- 'Monocyte'
 seurat$celltype[seurat$celltype %in% c('7')] <- 'Classical.Dendritic'
 seurat$celltype[seurat$celltype %in% c('9')] <- 'Plasmacytoid.Dendritic'
+
+DimPlot(seurat, group.by = "celltype")
 ```
 
 ![](KOGO_LCB_pipeline_files/figure-gfm/unnamed-chunk-23-1.png)<!-- -->
