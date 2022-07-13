@@ -14,6 +14,12 @@ library(DropletUtils)
 library(scran)
 ```
 
+### **Set Directory Path**
+``` r
+rdatadir = './kogo2022/QC/'
+plotdir = '/BiO/kogo/home/edu1/'
+```
+
 ### **Load Data**
 
 ``` r
