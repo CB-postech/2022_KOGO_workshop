@@ -124,10 +124,10 @@ plot_cells(cds, genes=c('CCR7'), show_trajectory_graph = F, cell_size = 1)
 
 ![](KOGO_Monocle3_markdown_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
 
-Click the end of the branch as the root node.
+Define the end of the branch as the root node.
 
 ``` r
-cds <- order_cells(cds)
+cds <- order_cells(cds, root_pr_nodes = 'Y_3')
 ```
 
 Plotting the cells and coloring them by pseudotime shows how they were
