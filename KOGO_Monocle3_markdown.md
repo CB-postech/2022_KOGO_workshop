@@ -110,7 +110,7 @@ cds = learn_graph(cds,learn_graph_control = list(prune_graph = TRUE))
     ## Argument `neimode' is deprecated; use `mode' instead
 
 ``` r
-plot_cells(cds, color_cells_by = "cluster", label_cell_groups = F)
+plot_cells(cds, color_cells_by = "cluster", label_cell_groups = F, label_principle_point=T)
 ```
 
 ![](KOGO_Monocle3_markdown_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
